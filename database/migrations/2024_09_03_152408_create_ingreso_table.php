@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('apePaterno');
             $table->string('apeMaterno');
+            $table->string('nombre');
             $table->string('unidad');
             $table->string('dni');
             $table->time('horaIngreso');

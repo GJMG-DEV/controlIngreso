@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('register', [RegisterController::class, 'index'])->name('register.post');
+Route::get('listadoUsuarios', [RegisterController::class, 'getRegistroUsuarios'])->name('register.get');
